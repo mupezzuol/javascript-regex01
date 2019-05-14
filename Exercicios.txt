@@ -43,3 +43,18 @@ REGEX:
 
 
 
+###################################### EXERCICIO 03
+
+DADOS: CSV Pessoas.
+
+OBJETIVO: Retira a Data completa
+
+REGEX:
+[0123]?\d\s+de\s+[A-Z][a-zç]{1,8}\s+de\s+[12]\d{3}
+
+EXPLICAÇÃO: No 12, ele faz com que seja 1 ou 2 a iniciais, depois 3 dígitos para o ano.
+
+##########################################################################################################
+
+
+

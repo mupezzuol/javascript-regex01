@@ -2,6 +2,29 @@
 
 \d -> é para digítos(números)
 
+\s -> é para espaços em branco(white spaces), usado bastante como '\s+', que
+significa uma ou mais vezes de espaços ou tabs.
+Exemplos de outras forma:
+->  \t é um tab.
+->  \r é carriage return.
+->  \n é newline.
+->  \f é form feed.
+
+############################################################################
+
+
+
+
+
+###################################### SÍMBOLOS
+
+?     -> zero ou uma vez.
+*     -> zero ou mais vezes.
++     -> uma ou mais vezes.
+{n}   -> exatamente n vezes.
+{n,}  -> no mínimo n vezes.
+{n,m} -> no mínimo n vezes, no máximo m vezes.
+
 ############################################################################
 
 
