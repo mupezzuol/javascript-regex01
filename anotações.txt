@@ -69,7 +69,7 @@ usamos '\d' como atalho
 
 
 
-###################################### WORD BOUNDARY
+###################################### ANCORAS - WORD BOUNDARY
 
 \b -> é uma das âncoras, chamada de word boundary. Uma âncora não seleciona
 um caractere, ela seleciona apenas uma posição no texto alvo.
@@ -87,6 +87,18 @@ um WORD CHAR que é qualquer coisa [A-Za-Z0-9_]
 
 
 
+
+
+###################################### ANCORAS - INICIO E FINAL
+
+String: file:///Users/nico/Downloads/regex/index.html
+
+Regex: ^file.+html$
+
+^   -> Indica o INICIO
+$   -> Indica o FINAL
+
+############################################################################
 
 
 
