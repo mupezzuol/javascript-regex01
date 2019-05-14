@@ -104,14 +104,20 @@ $   -> Indica o FINAL
 
 
 
+###################################### GANANCIOSO OU PREGUIÇOSO?
+
+String: <h1 class="text-left">Expressões regulares</h1>
+
+Regex: <h1.+>
+
+
+Explicação:
+Nossa regex começa com os valores literais <h1 seguido por qualquer caractere (.), 
+uma ou mais vezes. Assim garantimos que todos os atributos da tag serão encontrados. 
+No final colocamos o fechamento da tag (>):
 
 
 
-
-
-
-
-
-
+############################################################################
 
 
