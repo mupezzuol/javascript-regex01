@@ -69,9 +69,21 @@ usamos '\d' como atalho
 
 
 
+###################################### WORD BOUNDARY
+
+\b -> é uma das âncoras, chamada de word boundary. Uma âncora não seleciona
+um caractere, ela seleciona apenas uma posição no texto alvo.
 
 
+Exemplos:
+aaa aaaa aaa aaaa aaa
 
+Regex usada: \baaa\b
+Resultado: Será somente os 'aaa' que estão sozinhos, ele não seleciona a palavra
+que tem 4 a's (aaaa), ou seja, antes e depois da palavra entre os '\b' não pode ter
+um WORD CHAR que é qualquer coisa [A-Za-Z0-9_]
+
+############################################################################
 
 
 
